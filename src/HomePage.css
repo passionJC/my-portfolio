@@ -1,0 +1,62 @@
+.homeContainer {
+    padding-top: 60px;
+}
+#home {
+    height: 670px;
+    
+}
+
+.aboutContainer {
+    padding-top: 60px;
+}
+#about {
+    height: max-content;
+}
+
+.worksContainer {
+    padding-top: 60px;
+}
+#works{
+    height: max-content;
+}
+
+.skillsContainer {
+    padding-top: 60px;
+}
+#skills {
+    height: max-content;
+}
+
+.contactContainer {
+    padding-top: 60px;
+}
+#contact {
+    height: max-content;
+}
+
+@keyframes PageTrans {
+    from {
+        opacity: 0;
+        }
+    to {
+        opacity: 100%;
+        }
+    }
+
+    .borderLine {
+        margin-top: 10px;
+        width: 90vw;
+        border-top: solid 3px #fff;
+    }
+
+    .borderLine100vw {
+        margin-top: 10px;
+        width: 100%;
+        border-top: solid 3px #fff;
+    }
+
+    @media (min-width: 375px) and (max-width: 667px) {
+        #home {
+            height: 1020px;
+        }
+    }

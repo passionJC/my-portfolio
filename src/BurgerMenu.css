@@ -1,0 +1,26 @@
+.burgerNavContainer {
+    z-index: 1;
+}
+
+.burgerMenuContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    width: 50vw;
+    height: 100vh;
+    z-index: -1;
+    background: rgba(0,0,0,.9);
+}
+
+.burgerMenuContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burgerNavLink {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: inherit;
+}

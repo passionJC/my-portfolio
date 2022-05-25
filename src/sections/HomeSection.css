@@ -1,0 +1,137 @@
+.homeSectionContainer {
+    animation: PageTrans 1.5s linear;
+    display: flex;
+    gap: 30px;
+    padding: 20px 50px;
+}
+
+.fewInfoSection {
+    width: 600px;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.myTagline {
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+}
+
+.profilePicture {
+    width: 450px;
+    height: 560px;
+    margin: 0 auto;
+}
+
+.fewInfoSection .myInfoSection {
+    color: #ffbb00;
+}
+
+.fewInfoSectionContainer {
+    height: 300px;
+}
+
+.seeMore {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.seeMore:hover {
+    color: #d16c08;
+}
+
+.myInfo::after {
+    content: '|';
+    animation: cursor 1.1s infinite step-start;
+}
+
+@keyframes cursor {
+    50% {
+    opacity: 0;
+    }
+}
+
+.profilePicture .top {
+    width: 450px;
+    height: 40px;
+    background: linear-gradient(#0f0015,rgba(48, 14, 61, .1));
+    position: absolute;
+    top:80px;
+}
+
+.profilePicture .right {
+    height: 556px;
+    width: 40px;
+    background: linear-gradient(to left,#0f0015,rgba(48, 14, 61, .1));
+    position: relative;
+    top: -1116px;
+    right: -205px;
+}
+
+.profilePicture .bottom {
+    width: 450px;
+    height: 40px;
+    background: linear-gradient(to top,#0f0015,rgba(48, 14, 61, .1));
+    position: absolute;
+    top: 596px;
+
+}
+
+.profilePicture .left {
+    height: 556px;
+    width: 40px;
+    background: linear-gradient(to right,#0f0015,rgba(48, 14, 61, .1));
+    position: relative;
+    top: -560px;
+    right: 205px;
+}
+
+/*for mobile devices*/
+@media (min-width: 375px) and (max-width: 667px) {
+    .homeSectionContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .fewInfoSection {
+        width: 90vw;
+        margin-top: 30px;
+        padding: 0 auto;
+    }
+
+    .fewInfoSectionContainer {
+        height: 300px;
+    }
+
+    .profilePicture {
+        padding: 0;
+        margin: 20px 70px !important;
+    }
+
+    .profilePicture .top {
+        top: 461px;
+    }
+
+    .profilePicture .right {
+        top: -1116px;
+        left: 205px;
+    }
+
+    .profilePicture .bottom {
+        top: 977px;
+    }
+
+    .profilePicture .left {
+        top: -560px;
+        left: -205px;
+    }
+}
+
+@media (min-width: 668px ) and (max-width: 1024px) {
+    .profilePicture .left {
+        top: -560px;
+        right: 205px;
+    }
+}

@@ -1,0 +1,138 @@
+.workSection {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.workerSectionHeader {
+    margin-left: 80px;
+}
+.workerSectionHeader h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.worksContainer {
+    display: block;
+}
+
+.worksGrid {
+    padding: 0 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    height: 430px;
+}
+
+.worksGridInfo {
+    width: 700px;
+    margin-left: 20;
+    margin-top: 50px;
+}
+
+.worksGridInfo p {
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 0;
+    transition: all 0.3s;
+}
+
+.worksGridInfo p:hover {
+    color: #d16c08;
+}
+
+.worksGridImage {
+    width: 400px;
+}
+
+.gridNetflix {
+    background: linear-gradient(rgb(23, 15, 56), rgba(0, 0, 0,.2));
+}
+
+.gridSante {
+    background: linear-gradient(#474747, rgba(0, 0, 0,.2));
+}
+
+.gridBlog {
+    background: linear-gradient(rgb(20, 9, 70), rgba(0, 0, 0, 0.2));
+}
+
+.worksGrid img {
+    width: 400px;
+    margin: auto;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.worksGrid img:hover {
+    transform: scale(1.09);
+}
+
+.firstImage {
+    position: relative;
+    top: 80px;
+    z-index: 1;
+    right: 40px;
+}
+
+.secondImage {
+    position: relative;
+    top: -40px;
+    z-index: 2;
+}
+
+.worksGridInfo a {
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}
+.worksGridInfo h3 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 0;
+    display: block;
+    width: fit-content;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.worksGridInfo h3:hover {
+    transform: translateX(10px);
+}
+
+/* See more info section style */
+.moreInfo {
+    text-align: left;
+    padding: 2rem; 
+    width: 70%;
+    min-height: 400px;
+    height: max-content;
+    background-color: rgba(0,255,255,.1);
+    line-height: 1.5rem;
+}
+
+.moreInfo .seeMore {
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 0;
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+.moreInfo .seeMore:hover {
+    color: #d16c08;
+}
+
+.moreInfo ul {
+    margin-left: 40px;
+}
+
+/*media for tablet*/
+@media (min-width: 375px) and (max-width: 667px) {
+    .worksGrid {
+        padding: 1px 50px;
+        display: block;
+        width: 100%;
+        height: 530px;
+    }
+}

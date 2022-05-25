@@ -1,0 +1,43 @@
+.ContactSectionContainer {
+    margin-top: 0;
+    height: auto;
+    width: 100%;
+    background: rgba(0,0,0, 0.5);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.ContactSectionContainer h2{
+    font-size: 2rem;
+}
+
+
+.socMedIcon {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 15rem;
+    gap: 2rem;
+}
+
+.socMedIcon a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #eee;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socMedIcon a:hover {
+    transform: scale(1.2);
+}
+
+.ContactSectionContainer p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.copyRight {
+    margin-top: 4rem !important;
+    font-size: 1.2rem !important;
+}
