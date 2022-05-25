@@ -22,6 +22,10 @@
     margin: 0 auto;
 }
 
+.profilePicture img {
+    width: 450px;
+}
+
 .fewInfoSection .myInfoSection {
     color: #ffbb00;
 }
@@ -106,26 +110,37 @@
     }
 
     .profilePicture {
+        width: 350px !important;
+        height:432px;
         padding: 0;
-        margin: 20px 70px !important;
+        margin: 20px auto !important;
+    }
+
+    .profilePicture img {
+        width: 350px !important;
+        height:432px;
     }
 
     .profilePicture .top {
+        width: 350px !important;
         top: 461px;
     }
 
     .profilePicture .right {
-        top: -1116px;
-        left: 205px;
+        top: -868px;
+        left: 155px;
+        height: 432px;
     }
 
     .profilePicture .bottom {
-        top: 977px;
+        width: 350px;
+        top: 853px;
     }
 
     .profilePicture .left {
-        top: -560px;
-        left: -205px;
+        height: 432px;
+        top: -436px;
+        left: -155px;
     }
 }
 

@@ -5,9 +5,9 @@ import { BsTelephoneFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const ContactSection = () => {
     return (
-        <div class="ContactSectionContainer">
+        <div className="ContactSectionContainer">
             <h2>Follow me on:</h2>
-            <div class="socMedIcon">
+            <div className="socMedIcon">
                 <a href="https://www.facebook.com/jaycee081695/" target="_blank" rel='noreferrer' ><FaFacebook /></a>
                 <a href="https://github.com/jaycepogi" target="_blank" rel='noreferrer'  ><BsGithub /></a>
                 <a href="https://www.linkedin.com/in/john-carl-passion-83688a211/" target="_blank" rel='noreferrer' ><BsLinkedin /></a>
@@ -16,7 +16,7 @@ const ContactSection = () => {
             <h2>Or you can contact me @</h2>
             <p><FaEnvelope />&nbsp;&nbsp;&nbsp;jaycepogi53@gmail.com</p>
             <p><BsTelephoneFill />&nbsp;&nbsp;&nbsp;+63-955-0494-959</p>
-            <p class="copyRight">&copy; Copyright 2022. All rights reserved.</p>
+            <p className="copyRight">&copy; Copyright 2022. All rights reserved.</p>
         </div>
     )
 }

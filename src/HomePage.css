@@ -57,6 +57,11 @@
 
     @media (min-width: 375px) and (max-width: 667px) {
         #home {
-            height: 1020px;
+            height: 950px;
+        }
+
+        .mainContainer {
+            width: 100% !important;
+            overflow: hidden !important;
         }
     }

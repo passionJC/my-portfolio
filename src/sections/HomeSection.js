@@ -50,7 +50,7 @@ function HomeSection() {
 
             <div className="profilePicture">
                 <div className="top"></div>
-                <img src={profile} alt="my_profile_picture" width="450px" />
+                <img src={profile} alt="my_profile_picture" />
                 <div className="left"></div>
                 <div className="right"></div>
                 <div className="bottom"></div>
