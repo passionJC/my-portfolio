@@ -128,10 +128,15 @@
     margin-left: 40px;
 }
 
-/*media for tablet*/
+/*media for mobile*/
 @media (min-width: 375px) and (max-width: 667px) {
+
+    .workerSectionHeader {
+        margin: 0 30px;
+    }
+
     .worksGrid {
-        padding: 1px 50px;
+        padding: 1px 30px;
         display: block;
         width: 100%;
         height: 530px;
