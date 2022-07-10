@@ -48,14 +48,14 @@ const WorksSection = () => {
 
                     <div className="worksGrid gridNetflix">
                         <div className="worksGridInfo ">
-                            <h3><a href="https://jaycepogi.github.io/net-flix-clone-login-page/" target="blank">Netflix Clone Project</a></h3>
+                            <h3><a href="https://passionjc.github.io/net-flix-clone-login-page/" target="blank">Netflix Clone Project</a></h3>
                             <p onClick={toggleShowMoreNetflix}>{showMoreNetflix ? "Show Less" : "Show More"} &gt;</p>
                         </div>
                         <div className="worksGridImage">
-                            <a href="https://jaycepogi.github.io/net-flix-clone-login-page/" target="blank">
+                            <a href="https://passionjc.github.io/net-flix-clone-login-page/" target="blank">
                                 <img src={Netflixlogin} alt='screenshot of clone of netflix login page' className="firstImage" />
                             </a>
-                            <a href="https://jaycepogi.github.io/net-flix-clone-login-page/" target="blank">
+                            <a href="https://passionjc.github.io/net-flix-clone-login-page/" target="blank">
                                 <img src={NetflixProject} alt='screenshot of clone of netflix webpage' className="secondImage" />
                             </a>
                         </div>

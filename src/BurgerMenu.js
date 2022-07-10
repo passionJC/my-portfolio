@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import './BurgerMenu.css';
 import { NavHashLink } from 'react-router-hash-link';
 import { Squash as Hamburger } from 'hamburger-react';
 
 
-function BurgerMenu(ref) {
+function BurgerMenu() {
 
     const [show, handleShow] = useState(false);
 
