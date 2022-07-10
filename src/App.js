@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/my-portfolio/#home" element={<HomePage />} />
+        <Route path="/my-portfolio/" element={<HomePage />} />
       </Routes>
     </>
   );

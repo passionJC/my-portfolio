@@ -14,7 +14,7 @@ const ContactSection = () => {
                 <a href="https://twitter.com/passion_carl" target="_blank" rel='noreferrer' ><FaTwitter /></a>
             </div>
             <h2>Or you can contact me @</h2>
-            <p><FaEnvelope />&nbsp;&nbsp;&nbsp;jaycepogi53@gmail.com</p>
+            <p><FaEnvelope />&nbsp;&nbsp;&nbsp;passion.johncarl@gmail.com</p>
             <p><BsTelephoneFill />&nbsp;&nbsp;&nbsp;+63-955-0494-959</p>
             <p className="copyRight">&copy; Copyright 2022. All rights reserved.</p>
         </div>
