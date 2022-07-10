@@ -9,7 +9,7 @@ const ContactSection = () => {
             <h2>Follow me on:</h2>
             <div className="socMedIcon">
                 <a href="https://www.facebook.com/jaycee081695/" target="_blank" rel='noreferrer' ><FaFacebook /></a>
-                <a href="https://github.com/jaycepogi" target="_blank" rel='noreferrer'  ><BsGithub /></a>
+                <a href="https://github.com/passionJC" target="_blank" rel='noreferrer'  ><BsGithub /></a>
                 <a href="https://www.linkedin.com/in/john-carl-passion-83688a211/" target="_blank" rel='noreferrer' ><BsLinkedin /></a>
                 <a href="https://twitter.com/passion_carl" target="_blank" rel='noreferrer' ><FaTwitter /></a>
             </div>
